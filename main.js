@@ -5,7 +5,7 @@ const { autoUpdater } = require('electron-updater');
 
 let mainWindow;
 process.env.NODE_ENV = 'production' 
-require('update-electron-app')()
+//require('update-electron-app')()
 
 function createWindow () {
   mainWindow = new BrowserWindow({
